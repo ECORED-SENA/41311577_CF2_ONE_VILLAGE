@@ -1,0 +1,98 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion1",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","introduccion1"],
+    "path": "pages/intro1.html"
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "guia1",
+    "title": "1. Guía para la ideación de Producto",
+    "breadcrumb": ["Inicio","guia1"],
+    "path": "pages/1-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "guia1",
+        "title": "Objetivos de la guía",
+        "anchor": "objetivos1"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "guia1",
+        "title": "Conceptos",
+        "anchor": "conceptos1"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "guia1",
+        "title": "Instrucciones para el desarrollo del taller “Ideación de producto”",
+        "anchor": "instrucciones1"
+      }
+    ]
+  },
+  { 
+    "id": 3,
+    "icon": "fa fa-file-text",
+    "slug": "introduccion2",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","introduccion2"],
+    "path": "pages/intro2.html"
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-file-text",
+    "slug": "guia2",
+    "title": "2. Guía para el estudio de cadena de valor simple y selección de mi producto",
+    "breadcrumb": ["Inicio","guia2"],
+    "path": "pages/2-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "guia2",
+        "title": "Objetivos de la guía",
+        "anchor": "objetivos2"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "guia2",
+        "title": "Conceptos",
+        "anchor": "conceptos2"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "guia2",
+        "title": "Asuntos preliminares",
+        "anchor": "asuntos"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "guia2",
+        "title": "Elaboración de una cadena de valor simple",
+        "anchor": "elaboracion"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "guia2",
+        "title": "Uso de herramienta Excel para análisis de cadena de valor",
+        "anchor": "uso"
+      }
+    ]
+  },
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "actividad-1",
+    "title": "Actividad didáctica",
+    "path": "pages/actividad-1.html"
+  } 
+]
