@@ -84,15 +84,15 @@
       {
         "icon": "fa fa-file-text",
         "slug": "guia2",
+        "title": "Análisis de la cadena de valor simple",
+        "anchor": "analisis"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "guia2",
         "title": "Uso de herramienta Excel para análisis de cadena de valor",
         "anchor": "uso"
       }
     ]
-  },
-  {
-    "icon": "fa fa-question-circle",
-    "slug": "actividad-1",
-    "title": "Actividad didáctica",
-    "path": "pages/actividad-1.html"
-  } 
+  }
 ]

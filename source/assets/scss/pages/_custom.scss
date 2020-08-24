@@ -309,6 +309,11 @@ ol.lista > li.mas:before {
     padding: 20px;
 }
 
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+
 .r1{
     display: flex;
     flex-direction: column;
@@ -493,4 +498,9 @@ ol.lista > li.mas:before {
 .table2{
     background-color: #FFE7C4 !important;
     color: #805413 !important;
+}
+
+.table3{
+    background-color: #F49E21 !important;
+    color: #FFFFFF !important;
 }
