@@ -24,11 +24,11 @@ mixin pageHeader(tituloTema, srcImagen, pagina)
 
                 else 
 
-                    p.curso-descripcion Este componente formativo corresponde a la fase 2 de la Metodología OVOP y abarca dos guías metodológicas: la No 1, 
-                        i Guía No 3 para la Ideación de producto
-                        | y la No 2, 
-                        i Guía No 4 para el estudio de Cadena de valor simple y selección de Mi Producto
-                        | . Estas guías se constituyen en un paso fundamental en la ruta metodológica de la estrategia de desarrollo local OVOP – Colombia y tienen por objetivo, generar ideas de productos a partir de los recursos existentes en el territorio y seleccionar un producto que contribuya al establecimiento de una marca territorial para posicionar el municipio.
+                    p.curso-descripcion Este componente formativo corresponde a la fase 2 de la Metodología OVOP y abarca dos guías metodológicas:
+                    ul.curso-descripcion
+                        li Guía No 3 para la Ideación de producto.
+                        li Guía No 4 para el estudio de Cadena de valor simple y selección de Mi Producto.
+                    p.curso-descripcion Estas guías se constituyen en un paso fundamental en la ruta metodológica de la estrategia de desarrollo local OVOP – Colombia y tienen por objetivo, generar ideas de productos a partir de los recursos existentes en el territorio y seleccionar un producto que contribuya al establecimiento de una marca territorial para posicionar el municipio.
 
                 if pagina == 'home'
                     a.curso-btn-iniciar.btn.btn-danger(href="main.html")
